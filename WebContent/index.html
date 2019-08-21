@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BibliOtecA</title>
+<link rel="stylesheet" href="bootstrap.min.css"/>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BibliOtecA</a>
+    </div>
+
+    <!-- Collect the nav links -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul style="float:right" class="nav navbar-nav">
+        <li><a href="Logare.html" class="active">Logare</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+ <h2 align='center'>Bun venit la biblioteca!</h2>
+ <h2 align='center'>	</h2>
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner"  role="listbox">
+      <div class="item active">
+        <img src="carti_cautate/oamenii-fericiti-citesc-si-beau-cafea_1_fullsize.jpg" alt="0" style="width:500px; padding: 50px; align: center;">
+        <form>
+        <input style="width: 200px; padding: 20px; cursor: pointer; font-size: 100%;" type="button" value="Imprumutare" onclick="window.location.href='Logare.html'" />
+        </form>
+      </div>
+        
+      <div class="item">
+        <img src="carti_cautate/insomnii_1_fullsize.jpg" alt="1" style="width:500px; padding: 50px;">
+        <form>
+        <input style="width: 200px; padding: 20px; cursor: pointer; font-size: 100%;" type="button" value="Imprumutare" onclick="window.location.href='Logare.html'" />
+        </form>
+      </div>
+      
+      <div class="item">
+        <img src="fantezie/ratacire_1_fullsize.jpg" alt="2" style="width:600px; padding: 60px;">
+        <form>
+        <input style="width: 200px; padding: 20px; cursor: pointer; font-size: 100%;" type="button" value="Imprumutare" onclick="window.location.href='Logare.html'" />
+        </form>
+      </div> 
+      
+    </div>
+
+      <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Urmator</span>
+    </a>
+</div>
+</div>
+
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+
+
+</body>
+</html>

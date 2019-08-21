@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Logare</title>
+<link rel="stylesheet" href="bootstrap.min.css"/>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BibliOtecA</a>
+   </div>
+   </div>
+</nav>
+<div class="container-fluid">
+<h1>BibliOtecA</h1>
+
+<div class="row">
+  <div class="col-md-6">
+  <h3>Logare Administrator</h3>
+  <form action="LogareAdministrator" method="post" style="width:300px">
+  <div class="form-group">
+    <label for="email1">Email</label>
+    <input type="email" class="form-control" name="email" id="email1" placeholder="Email"/>
+  </div> 
+  <div class="form-group">
+    <label for="password1">Parola</label>
+    <input type="password" class="form-control" name="parola" id="password1" placeholder="Parola"/>
+  </div>
+  <button type="submit" class="btn btn-primary">Logare</button>
+</form>
+  
+  </div>
+  <div class="col-md-6">
+  <h3>Logare Client</h3>
+  <form action="LogareClient" method="post" style="width:300px">
+  <div class="form-group">
+    <label for="email1">Email</label>
+    <input type="email" class="form-control" id="email1" name="email" placeholder="Email"/>
+  </div>
+  <div class="form-group">
+    <label for="parola1">Parola</label>
+    <input type="password" class="form-control" id="password1" name="parola" placeholder="Parola"/>
+  </div>  
+  <button type="submit" class="btn btn-primary">Logare</button>
+</form>
+</div>
+  </div>
+</div>
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
